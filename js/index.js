@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let moviesContainer = document.getElementById('movies');
   const searchMovie = document.getElementById('submitSearch');
   const apiKey = '8b7ce05e';
-  let url = 'http://www.omdbapi.com/?apikey=' + apiKey;
+  let url = 'https://www.omdbapi.com/?apikey=' + apiKey;
   // let movie = '';
 
   searchMovie.addEventListener('submit', (e) => {
